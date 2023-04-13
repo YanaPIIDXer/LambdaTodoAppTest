@@ -7,14 +7,10 @@
   "author": "SAM CLI",
   "license": "MIT",
   "dependencies": {
-    "@types/aws-lambda": "^8.10.114",
-    "axios": "^0.21.1",
-    "tsc": "^2.0.4",
-    "typescript": "^5.0.4"
+    "axios": "^0.21.1"
   },
   "scripts": {
-    "test": "mocha tests/unit/",
-    "build": "tsc"
+    "test": "mocha tests/unit/"
   },
   "devDependencies": {
     "chai": "^4.2.0",
